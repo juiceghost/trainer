@@ -29,6 +29,8 @@ export const List = () => <ul><li>hej</li></ul>
    3. Skriv motsvarande funktion för att ta ut n lägsta
    4. Skriv en funktion som tar testArray2 som argument, och returnerar ett objekt som funktionen bygger och ser ut som:
       {currency: 'USD', amount: 10000, timestamp: 1582044818312}
+   5. Utgå ifrån datamängden du stött på i TP2, kan du applicera map, reduce, filter etc(Array.prototype) Object.keys, Object.values, Object.assign (Object.prototype)
+      i syfte att skapa två arrayer, labels och data. Labels innehåller det vi vill visa, och data säger hur mycket.
 
-   Lycka till och hojta till om du behöver assistans :)
+   Lycka till och hojta till om du behöver assistans
 *******************************************************************************************************************************************************/
