@@ -1,6 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
 const testArray = [100, 200, 250, 250, 500, 500, 750, 750, 800, 2000, 6000, 7000];
 
@@ -8,15 +6,16 @@ const testArray2 = { transfer: [{ key: 'currency', value: 'USD' }, { key: 'amoun
 
 // const testArray3 = [{ }]
 
-function App() {
-  return (
-    <div className="App">
-      <List />
-    </div>
-  );
+function Exercise1() {
+    return (
+        <div className="App">
+            <h1>Exercise 1</h1>
+            <List />
+        </div>
+    );
 }
 
-export default App;
+export default Exercise1;
 
 export const List = () => <ul><li>hej</li></ul>
 

@@ -1,0 +1,13 @@
+export const SIGN_UP = '/signup';
+export const SIGN_IN = '/signin';
+export const LANDING = '/';
+export const HOME = '/home';
+export const ACCOUNT = '/account';
+export const ADMIN = '/admin';
+export const PASSWORD_FORGET = '/pw-forget';
+export const EXERCISE1 = '/exercise1';
+export const EXERCISE2 = '/exercise2';
+export const EXERCISE3 = '/exercise3';
+export const EXERCISE4 = '/exercise4';
+export const EXERCISE5 = '/exercise5';
+export const EXERCISE6 = '/exercise6';
