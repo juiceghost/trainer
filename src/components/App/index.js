@@ -10,6 +10,7 @@ import HomePage from '../Home';
 import AccountPage from '../Account';
 import AdminPage from '../Admin';
 import Exercise1 from '../Exercise1'
+import Exercise3 from '../Exercise3'
 
 import * as ROUTES from '../../constants/routes';
 
@@ -33,6 +34,7 @@ const App = () => (
       <Route exact path={ROUTES.ADMIN} component={AdminPage} />
       <Route exact path={ROUTES.EXERCISE1} component={Exercise1} />
       <Route exact path={ROUTES.EXERCISE2} component={AdminPage} />
+      <Route exact path={ROUTES.EXERCISE3} component={Exercise3} />
     </div>
   </Router>
 );
